@@ -4,8 +4,9 @@ The HR Interview Screening Chatbot is a cloud-based intelligent system that auto
 It simulates a real-world hiring workflow used by companies:
 
 “Resume → Application → ATS Filter -> Mail"
+---
 "Mail→ Assessment Link → Assessment Scoring → HR Shortlist”
-
+---
 The system uses Streamlit + Python for the applicant interface, HTML and CSS for assesment interface, Snowflake as the data warehouse, Azure for deployment and email automation, and Power BI for recruiter dashboards.
 
 The goal of the project is to reduce recruiter workload and shortlist the most relevant candidates using a transparent and explainable AI scoring system.
