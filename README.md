@@ -14,7 +14,9 @@ The goal of the project is to reduce recruiter workload and shortlist the most r
 ---
 
 ## Key Features
-
+### Admin page :
+     Job decscription is available here, assesment questions depends on jd. key words are also in Jd.
+     
 ### 1. Candidate Application Portal (Streamlit)
 - Candidate fills an application form.  
 - Uploads PDF resume.  
@@ -65,6 +67,9 @@ It improves fairness, consistency, and reduces workload by 70–80%.
 ---
 
 ## Process Flow
+
+### Admin page :
+     Job decscription is available here, assesment questions depends on jd. key words are also in Jd.
 
 ### 1. Candidate Submission
 Candidates visit the Streamlit app and:
@@ -172,7 +177,7 @@ Cloud: Azure (App Service, Blob Storage, Key Vault, Azure Function for email sen
 Visualization: Power BI  
 
 ## Project Descriptiion
--After the candidate fills the application and the application questions consists of :(name, email, gender, ph no, city, state, country, pincode, address, applied role, work experience, languages known, highest level of education, name of university, feild of study, year of graduation, skills, resume url,CTC expected, why this company, do you have the work permit of the applied country, do you in future require any help from the company for visa permit) and then the application is submitted and the ats scoring takes place based on the keyword matching and if the ats score is equal or higher than what we set teh candidate will be get the assessment link through mail ----> python+streamlit--> stored in snowflake
+- Admin page has JD, After the candidate fills the application and the application questions consists of :(name, email, gender, ph no, city, state, country, pincode, address, applied role, work experience, languages known, highest level of education, name of university, feild of study, year of graduation, skills, resume url,CTC expected, why this company, do you have the work permit of the applied country, do you in future require any help from the company for visa permit) and then the application is submitted and the ats scoring takes place based on the keyword matching and if the ats score is equal or higher than what we set teh candidate will be get the assessment link through mail ----> python+streamlit--> stored in snowflake
 
 -after the candidate receives the mail and starts the assignment and the assignment consists of 10 qestions(MCQ)(MCQ, options, answers all stored in seperate snowflake table) and the candidate submits the assessment and the assesment should be scored and if the assesment score is higher than the given score the candidate goes under holistic screening that consists of resume screening + assesment score + application answers(application answers means CTC, work permit eligibilty is taken as base ) and if the avarage score is equal or higher than the score set then the candidate is shortlisted to present on power bi for HR ----> HTML, CSS, Vanilla JS ---> stored in snowflake
 
